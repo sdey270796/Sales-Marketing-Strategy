@@ -1,0 +1,34 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:       Amount_Collected   R-squared:                       0.480
+Model:                            OLS   Adj. R-squared:                  0.478
+Method:                 Least Squares   F-statistic:                     342.1
+Date:                Mon, 09 Sep 2024   Prob (F-statistic):               0.00
+Time:                        03:51:35   Log-Likelihood:                -54512.
+No. Observations:                2976   AIC:                         1.090e+05
+Df Residuals:                    2967   BIC:                         1.091e+05
+Df Model:                           8                                         
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+Intercept        1.481e+06   5.12e+05      2.891      0.004    4.77e+05    2.49e+06
+Campaign_Email      0.7932      0.597      1.329      0.184      -0.377       1.963
+Campaign_Flyer      3.3376      0.260     12.831      0.000       2.828       3.848
+Campaign_Phone      0.0734      1.053      0.070      0.944      -1.991       2.137
+Sales_Contact_1     4.2368      0.415     10.207      0.000       3.423       5.051
+Sales_Contact_2     3.6382      0.129     28.155      0.000       3.385       3.892
+Sales_Contact_3     2.3432      0.131     17.925      0.000       2.087       2.600
+Sales_Contact_4    10.9478      1.060     10.331      0.000       8.870      13.026
+Sales_Contact_5     3.5078      4.549      0.771      0.441      -5.412      12.428
+==============================================================================
+Omnibus:                     1099.749   Durbin-Watson:                   0.624
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             7733.226
+Skew:                           1.578   Prob(JB):                         0.00
+Kurtosis:                      10.239   Cond. No.                     5.89e+06
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 5.89e+06. This might indicate that there are
+strong multicollinearity or other numerical problems.

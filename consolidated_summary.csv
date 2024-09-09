@@ -1,0 +1,14 @@
+Variable,Coefficient (Impact),Account Type
+Sales_Contact_2,0.8101,Small Facility 
+Campaign_Phone,-3.468e-06,Small Facility 
+Sales_Contact_1,11.6731,Large Facility 
+Sales_Contact_4,10.6145,Large Facility 
+Sales_Contact_2,4.0031,Large Facility 
+Campaign_Flyer,2.7204,Large Facility 
+Sales_Contact_3,2.0316,Large Facility 
+Campaign_Phone,-3.5361,Large Facility 
+Sales_Contact_2,6.6223,Private Facility
+Campaign_Flyer,4.1059,Medium Facility
+Sales_Contact_2,3.5778,Medium Facility
+Sales_Contact_1,3.1365,Medium Facility
+Sales_Contact_3,2.1174,Medium Facility
